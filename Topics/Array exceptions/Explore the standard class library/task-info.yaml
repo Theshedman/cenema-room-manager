@@ -1,0 +1,26 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: NegativeArrayIndexException
+- text: ArrayEmptyException
+- text: ArrayIndexOutOfBoundsException
+- text: NegativeArraySizeException
+- text: NullArrayReferenceException
+- text: ZeroArraySizeException
+message_correct: Congratulations!
+message_incorrect: Incorrect solution
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/1939#comment
+status: Solved
+record: -1
